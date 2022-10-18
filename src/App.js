@@ -1,4 +1,5 @@
 import "./App.css";
+import DictionarySearch from "./DictionarySearch";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         <p>Dictionary project</p>
       </header>
+      <DictionarySearch />
     </div>
   );
 }
