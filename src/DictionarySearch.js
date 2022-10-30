@@ -19,10 +19,13 @@ export default function DictionarySearch() {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <input type="search" onChange={handleWord} />{" "}
-        <input type="submit" value="Search" />
-      </form>
+      {" "}
+      <section>
+        <form onSubmit={handleSubmit}>
+          <input type="search" onChange={handleWord} />{" "}
+          <input type="submit" value="Search" />
+        </form>
+      </section>
       <Meanings meanings={word} />
     </div>
   );

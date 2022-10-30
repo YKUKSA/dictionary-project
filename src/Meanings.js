@@ -6,19 +6,21 @@ export default function Meanings(props) {
   if (props.meanings) {
     return (
       <div className="Meanings">
-        <h2>{props.meanings.word}</h2>
-        {props.meanings.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetic phonetic={phonetic} />
-            </div>
-          );
-        })}
+        <section>
+          <h2>{props.meanings.word}</h2>
+          {props.meanings.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            );
+          })}
+        </section>
         {props.meanings.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Result meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>

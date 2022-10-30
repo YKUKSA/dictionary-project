@@ -1,4 +1,14 @@
-form {
-  margin-top: 30px;
-  margin-bottom: 20px;
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 550px;
+}
+input {
+  padding: 5px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
