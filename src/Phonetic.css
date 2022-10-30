@@ -1,0 +1,17 @@
+.audio a {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 2.5;
+  transition: all 120ms ease-in-out;
+}
+.audio a:hover {
+  background-color: #f7f3ff;
+}
+.text {
+  color: grey;
+  margin-left: 10px;
+}
