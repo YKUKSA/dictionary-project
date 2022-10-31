@@ -12,4 +12,11 @@ input {
   padding: 5px 40px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  margin-top: 25px;
+}
+.DictionarySearch-form p {
+  font-size: 13px;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 50px;
 }

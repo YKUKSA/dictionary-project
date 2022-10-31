@@ -5,3 +5,6 @@ body {
 .App-header {
   margin-top: 50px;
 }
+.App p {
+  font-size: 24px;
+}
