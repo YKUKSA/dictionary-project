@@ -34,7 +34,7 @@ export default function DictionarySearch() {
       <section>
         <form onSubmit={handleSubmit}>
           <input type="search" onChange={handleWord} />{" "}
-          <input type="submit" value="Search" />
+          <input type="submit" value="Look up" />
         </form>
         <p>suggested words: flower, snow, wine...</p>
       </section>
