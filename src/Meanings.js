@@ -2,7 +2,6 @@ import React from "react";
 import Result from "./Result";
 import Phonetic from "./Phonetic";
 export default function Meanings(props) {
-  console.log(props.meanings);
   if (props.meanings) {
     return (
       <div className="Meanings">

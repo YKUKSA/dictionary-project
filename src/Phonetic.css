@@ -1,13 +1,14 @@
 .audio a {
+  background-color: #f7f3ff;
   border: 1px solid grey;
   border-radius: 15px;
-  padding: 5px 10px;
-  text-decoration: none;
   color: black;
   font-size: 14px;
   line-height: 2.5;
+  padding: 5px 10px;
+  text-decoration: none;
+
   transition: all 120ms ease-in-out;
-  background-color: #f7f3ff;
 }
 .audio a:hover {
   background-color: #f7f3ff;
