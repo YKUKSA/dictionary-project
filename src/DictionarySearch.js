@@ -38,8 +38,8 @@ export default function DictionarySearch() {
         </form>
         <p>suggested words: flower, snow, wine...</p>
       </section>
-      <Meanings meanings={word} />
       <Photo photos={photos} />
+      <Meanings meanings={word} />
     </div>
   );
 }
