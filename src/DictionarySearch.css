@@ -2,10 +2,8 @@ section {
   background-color: white;
   border-radius: 10px;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin-bottom: 10px;
+  margin: 10px auto;
   padding: 20px;
-  margin: 0 auto;
   width: 550px;
 }
 input {
